@@ -12,7 +12,7 @@ public class Loops {
         }
         Sc.close(); */
 
-        //Pattern printing | Basic one 
+    /*     //Pattern printing | Basic one 
         int n,m;
         char a;
         Scanner Sc= new Scanner(System.in);
@@ -25,6 +25,22 @@ public class Loops {
             }
            System.out.println();
         }
-   
+          Sc.close();
+          */
+        //For-loop | Right-Triangle pattern
+
+        int n;
+        char a;
+        Scanner Sc= new Scanner(System.in);
+        n=Sc.nextInt();
+        a=Sc.next().charAt(0);
+        
+        for(int i=1 ; i<=n ; i++){
+            for(int j=1 ;j<=i ;j++){
+               System.out.print(a);
+            }
+            System.out.println();
+        }
+    
     }
 }
