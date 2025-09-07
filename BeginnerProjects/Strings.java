@@ -9,6 +9,8 @@ public class Strings {
         input_str=sc.nextLine();
         System.out.println("The length of the given Input string is :"+input_str.length());
         */
+
+
      /*  // Concatenate two strings without using + operator (use functions).
         String input_str1,input_str2;
         Scanner sc = new Scanner(System.in);
@@ -16,6 +18,8 @@ public class Strings {
         input_str2=sc.nextLine();
         System.out.println("The concatenated string is : "+input_str1+input_str2);
        */
+
+
         //Check if a string is empty or not.
        
        /*  String input_str;
@@ -28,7 +32,9 @@ public class Strings {
             System.out.println("The string is not Empty! It contains some content!");
         }
        */
-        //Input a string and print it in uppercase and lowercase.
+
+
+      /*   //Input a string and print it in uppercase and lowercase.
 
         String input_str,uppercase_str,lowercase_str;
         Scanner sc= new Scanner(System.in);
@@ -39,7 +45,28 @@ public class Strings {
         lowercase_str=input_str.toLowerCase();
         System.out.println("The lowercase of the given input string is: "+lowercase_str);
 
-        sc.close();  
+        sc.close();
+        */
+
+
+        //Find the first and last character of a string.
+              String input_str;
+              Scanner sc = new Scanner(System.in);
+
+        System.out.println("Type the input string: ");
+        input_str = sc.nextLine();
+
+        int n = input_str.length();
+
+        if (n > 0) { // check string is not empty
+            System.out.println("The first Character of the String is : " + input_str.charAt(0));
+            System.out.println("The last Character of the String is : " + input_str.charAt(n - 1));
+        } else {
+            System.out.println("The string is empty!");
+        }
+
+        sc.close();
+
     }
     
 }
